@@ -1,0 +1,54 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-image: url("../images/logINBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+}
+
+.customCard {
+  border-radius: 3px;
+}
+
+.customColumn {
+  max-width: 610px;
+}
+
+.customLogin {
+  border-radius: 30px;
+}
+.customLogin input[type=text], .customLogin input[type=password] {
+  border-radius: 50px;
+  transition: all ease-in 0.2s;
+  width: 55%;
+}
+.customLogin input[type=text]:focus, .customLogin input[type=password]:focus {
+  width: 60% !important;
+  box-shadow: 1px green;
+}
+.customLogin h3 {
+  color: #17a2b8;
+}
+.customLogin span {
+  color: red;
+  font-weight: bold;
+}
+.customLogin button {
+  font-size: large;
+  font-weight: bold;
+}
+
+.forgotPass {
+  margin-top: 5px !important;
+  color: white;
+}
+
+.forgotPass:hover {
+  color: white;
+  cursor: pointer;
+  color: #17a2b8;
+}

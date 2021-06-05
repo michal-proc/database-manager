@@ -1,0 +1,28 @@
+.SheetSelect {
+  width: 10%;
+  min-width: 110px;
+}
+.SheetSelect .cstomInputText {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  background-color: white;
+  color: #cccccc;
+}
+.SheetSelect .customTextInput:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border-right-color: white !important;
+  border: solid 2px #2684ff !important;
+  border-right: 0px white !important;
+}
+.SheetSelect .customTextInput:focus + .colorChange span {
+  box-shadow: none !important;
+  border: solid 2px #2684ff !important;
+}
+.SheetSelect .cstomInputText:hover {
+  color: #8c8c8c;
+  cursor: pointer;
+}
+.SheetSelect .customTextInput {
+  border-right-color: white;
+}
