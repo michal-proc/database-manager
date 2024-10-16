@@ -47,7 +47,7 @@ To run this project locally, ensure you have the following installed:
 
 ```bash
 git clone <repository-url>
-cd database-manager-master
+cd database-manager
 ```
 
 ### 2. Frontend setup:
